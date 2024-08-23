@@ -7,7 +7,7 @@ import { Provider } from "react-redux";
 import { store } from "./app/store.ts";
 
 createRoot(document.getElementById("root")!).render(
-    <BrowserRouter>
+    <BrowserRouter basename={"/test-eco-alfa"}>
         <Provider store={store}>
             <App />
         </Provider>

@@ -19,8 +19,42 @@
     max-height: 290px;
 }
 
+.css-cptnlt {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+.css-7qltnt {
+    max-height: 290px;
+}
+.css-y0nnqy {
+    height: 625px;
+}
+.css-r8u13v {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
 @media screen and (max-width: 767px) {
+    .css-y0nnqy {
+        padding: 5px !important;
+    }
+    .css-1qw96cp {
+        padding: 5px !important;
+    }
     .css-46bh2p-MuiCardContent-root {
         padding: 5px !important;
     }
+}
+
+.css-6jakoc {
+    height: 100%;
+}
+.css-1lqwtax {
+    height: 100%;
 }

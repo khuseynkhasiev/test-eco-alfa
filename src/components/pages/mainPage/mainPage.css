@@ -1,0 +1,10 @@
+.MainPage {
+    flex-grow: 1;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.MainPage__title {
+    text-align: center;
+}

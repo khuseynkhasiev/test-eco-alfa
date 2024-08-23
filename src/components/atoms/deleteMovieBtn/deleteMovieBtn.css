@@ -1,0 +1,20 @@
+.DeleteMovieBtn {
+    background: none;
+    border: none;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    width: 30px;
+    height: 30px;
+    z-index: 100;
+    cursor: pointer;
+    transition: all 0.4s ease;
+
+    background-image: url("../../../assets/images/deleteCardBtn/delete-card-btn.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.DeleteMovieBtn:hover {
+    width: 35px;
+    height: 35px;
+}

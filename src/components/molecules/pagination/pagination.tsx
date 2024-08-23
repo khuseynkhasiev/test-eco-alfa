@@ -10,11 +10,7 @@ export const PaginationOutlined = memo(() => {
     const dispatch = useDispatch();
     const { page, total } = useSelector((state: RootState) => state.movies);
 
-    const handlePageChange = (
-        event: React.ChangeEvent<unknown>,
-        page: number
-    ) => {
-        console.log(page);
+    const handlePageChange = (page: number) => {
         dispatch(setCurrentPage(page));
     };
 
@@ -23,7 +19,7 @@ export const PaginationOutlined = memo(() => {
             <Pagination
                 count={total}
                 page={page}
-                onChange={handlePageChange}
+                onChange={() => handlePageChange}
                 variant="outlined"
                 size="large"
                 sx={{

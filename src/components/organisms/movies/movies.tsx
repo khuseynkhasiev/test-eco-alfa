@@ -20,7 +20,7 @@ const Item = styled(Paper)(({ theme }) => ({
 
 export const Movies = () => {
     const dispatch = useDispatch();
-    const { limit, pages, page, total, allMovies, currentMovies } = useSelector(
+    const { limit, page, currentMovies } = useSelector(
         (state: RootState) => state.movies
     );
     const [isLoading, setIsLoading] = useState(false);
